@@ -1,0 +1,22 @@
+# Port of Bitcoin
+
+Perhaps the biggest challenge of the digital age is embedding the world of bits into the world of atoms. Physical infrastructure, laws and regulation have all evolved in and for the world of atoms. However, the emergence of software over and over again completely reshapes the user experience and redraws the map of competitors in an industry. Bitcoin poses no different a challenge.
+
+Imagine visiting a major port at the height of the industrial revolution. You would be able to observe the number of ships entering and leaving, listen to the stories and challenges of the voyages and to identify all kinds of commercial opportunities as a result. 
+
+In the world of bits the levels of activity aren’t as obvious, you can’t visit a physical port like you can in the world of atoms. But that doesn’t mean there isn’t a revolution stirring. The challenge is to create a port like experience where participants can observe activity and offer services around that activity. Of course ports have a meaning in software too. In a computer’s operating system a port identifies a process or network service such Bitcoin network messages.
+
+As Yogi Berra said “It’s tough to make predictions, especially about the future”. However, a startup has to at least assess the direction that winds are blowing to build something that is useful and position itself to capitalize on that insight. So this is our assessment of where those winds are blowing.
+
+* Bitcoin is valued at over half a trillion dollars as of April 2022 which surely makes it impossible to ignore. By attempting to ignore it any company in the financial services industry and indeed any financial center is betting the farm that it will collapse and have no lasting impact on the financial sector. This may well be a possibility but betting the farm on that outcome is extremely brave. It is risking irrelevance and obsolescence. It seems prudent to hedge that bet at the very least.
+* London has centuries of experience as one of the world’s preeminent financial centers. The internet startup era largely passed the UK by but the UK cannot afford to keep missing these waves of innovation and wealth creation. 
+* By leaving the EU at great cost and disruption the UK government is looking for opportunities to capitalize on its position outside of the EU. Some of these opportunities will be presented by the EU approach to regulation in sectors such as finance and technology. The signs as of April 2022 are that the EU will implement rules that will drive Bitcoin activity elsewhere. Poorly thought through and overly onerous EU regulation was one of the most convincing arguments to leave in the first place.
+* If Bitcoin does become a new global monetary unit of account there is still large price upside. Today it is worth a fraction of the world’s most valuable company (Apple) and a fraction of the gold market. A new global monetary unit of account is surely more valuable than that.
+* It is difficult to see how there would still be such large price upside in a decade when presumably Bitcoin will have either become a new global monetary unit of account or stagnated and become an irrelevance.
+
+So what does preparing for a potential new global monetary unit of account look like? A large part of it is education and advisory services. Individuals need education on how to prudently gain exposure to Bitcoin and safely store it. Startups and existing Bitcoin companies need Bitcoin developers. Incumbents in the financial sector need to prepare for whenever they are free to offer Bitcoin related services. The insurance market needs to assess to what extent it can offer coverage against funds being stolen from hot wallets, cold wallets and digital vault schemes. The expertise and infrastructure offered by a historically preeminent financial center is an advantage but unless coupled with deep technical expertise it is incapable of providing and pricing the services required in future by clients.
+
+Clearly a startup has to start small but that is the opportunity for the next decade. To what extent the Port of Bitcoin will offer services itself or partner with other companies will evolve over time but to start with it will seek to establish a base on which to build.
+
+Bitcoin could fail. But if Bitcoin succeeds it offers the biggest opportunity and the biggest threat to the financial services industry since at least the financial crisis of 2008. It might just be time to decide where one would like to position oneself for that opportunity and threat.
+
