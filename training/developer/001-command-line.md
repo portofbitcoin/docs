@@ -41,3 +41,5 @@ Note you only created a new file, you didn’t open it. There are various ways t
 ## References
 
 Learn command line (Tracy Osborn): <https://hellowebbooks.com/learn-command-line/>
+
+Bite Size Command Line (Julia Evans): <https://wizardzines.com/zines/bite-size-command-line/>
