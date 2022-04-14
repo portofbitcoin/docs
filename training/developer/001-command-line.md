@@ -38,6 +38,15 @@ Repeat the above over and over again until it starts to become second nature. Th
 
 Note you only created a new file, you didn’t open it. There are various ways to open a file. We will use Vim. But before we introduce Vim get used to the command line. Vim will introduce a large number of new commands and shortcuts so only move onto Vim when you are ready.
 
+## Setting the default shell to bash
+
+Since MacOS Catalina MacOS has set the default shell to Zsh. We will use bash instead so before moving on run the command:
+
+```
+chsh -s /bin/bash
+```
+You will need to enter your computer's password after pressing Enter but you will be prompted when you need to.
+
 ## References
 
 Learn command line (Tracy Osborn): <https://hellowebbooks.com/learn-command-line/>
