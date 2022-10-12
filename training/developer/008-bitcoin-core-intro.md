@@ -68,7 +68,7 @@ If you are regularly running bitcoind and you forget to stop bitcoind you can se
 
 `ps -ax | grep bitcoin`
 
-This will tell you the number of the Bitcoin process that is running and then you can kill it.
+This will tell you whether you are running a mainnet/regtest/signet/testnet process. You can then stop that process using `./src/bitcoin-cli (-regtest/-signet/-testnet) stop` or if you really need to you can kill the process taking the PID number from the output of the `ps` command.
 
 `kill insert_pid_number`
 
