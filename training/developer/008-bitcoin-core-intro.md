@@ -42,7 +42,7 @@ If this is your first time building Bitcoin Core you don’t need to do the foll
 
 `make clean`
 
-Then
+Then:
 
 `make -j5`
 
@@ -50,7 +50,7 @@ Then
 
 # Running bitcoind (regtest)
 
-If this is your first time running Bitcoin Core (and the Bitcoin daemon bitcoind) you might want to run it first in regtest mode. Unlike mainnet, testnet and signet you won’t connect to any external peers on the network and it is entirely local. In addition you can generate regtest coins yourself without requesting them from somebody else. So while you’re getting comfortable with Bitcoin Core you might want to stay in this mode. To run bitcoind in regtest mode:
+If this is your first time running Bitcoin Core (and the Bitcoin daemon bitcoind) you might want to run it first in regtest mode. Unlike mainnet, testnet and signet you won’t connect to any external peers on the network and it is entirely local. (For more information on the different Bitcoin blockchains see this [video](https://www.youtube.com/watch?v=6KpQmCs0qH8)). In addition you can generate regtest coins yourself without requesting them from somebody else. So while you’re getting comfortable with Bitcoin Core you might want to stay in this mode. To run bitcoind in regtest mode:
 
 `./src/bitcoind -daemon -regtest`
 
@@ -82,13 +82,22 @@ To run bitcoind in signet mode:
 
 Your signet node will start up, connect to signet peers, receive signet blocks and verify those signet blocks. With regtest you had no external peers and had to generate regtest blocks yourself.
 
-To receive signet coins you need to generate a signet address and then request signet coins to it by going to <https://signetfaucet.com/>.
+To receive signet coins you need to generate a signet address and then request signet coins to it by going to [signetfaucet.com](https://signetfaucet.com/).
 
-Let's create a signet wallet and generate a signet address:
+Let's create a signet wallet:
 
 `./src/bitcoin-cli -signet createwallet "insert_wallet_name"`
 
+Then generate a signet address for that wallet:
 
- 
+`./src/bitcoin-cli -signet -rpcwallet=insert_wallet_name getnewaddress`
 
+Open up [signetfaucet.com](https://signetfaucet.com/) in a browser and request signet coins to this address. The limit on each request is 0.01.
 
+You can look up the transaction on any block explorer that supports signet like [mempool.space](https://mempool.space/signet). You can also verify you've received it from the command line:
+
+`./src/bitcoin-cli -signet -rpcwallet=insert_wallet_name getunconfirmedbalance`
+
+Of course if you take a while to run this command (10 minutes or so) the transaction may have been confirmed in which case it will show in the confirmed balance:
+
+`./src/bitcoin-cli -signet -rpcwallet=insert_wallet_name getbalance`
