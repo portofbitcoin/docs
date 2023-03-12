@@ -52,5 +52,5 @@ After 30 minutes you can confirm your DNS record configured correctly from the c
 
 You should be able to see that `www.myfirstwebsite.com` now has a CNAME record of `username.github.io`. And if you enter `www.myfirstwebsite.com` into a web browser (e.g. Safari, Chrome, Firefox etc) you should be able to now see your `Hello World!` and whatever else you added to your site.
 
-
+Alternatively a video tutorial from SuperSimpleDev: <https://www.youtube.com/watch?v=p1QU3kLFPdg>
   
